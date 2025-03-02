@@ -17,6 +17,7 @@ app.add_middleware(
 def root():
     response = {
         'greeting': 'Hello!',  #Hello 
+        'timestamp': datetime.now() 
     }
 
     return response
